@@ -125,7 +125,7 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android")
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/iso8583-builder.git
+git clone https://github.com/aliIsazadeh/iso8583-builder.git
 cd iso8583-builder
 ```
 
@@ -172,7 +172,7 @@ STAN is persisted using **DataStore** and survives app restarts.
 ## 📂 Project Structure
 
 ```
-app/src/main/java/com/yourname/iso8583/
+app/src/main/java/com/task/iso8583builder/
 ├── MainActivity.kt
 ├── Iso8583Application.kt
 ├── ui/
@@ -264,7 +264,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Ali Isazadeh (JesusAli)**
 - GitHub: [@AliIsazadeh](https://github.com/aliIsazadeh)
 - LinkedIn: [AliIsazadeh](https://www.linkedin.com/in/ali-isazadeh-7b2524215/)
 
