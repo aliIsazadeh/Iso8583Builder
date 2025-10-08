@@ -217,9 +217,9 @@ app/src/main/java/com/task/iso8583builder/
 
 | Builder Screen | Generated Message |
 |---------------|------------------|
-| <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/14c58edb-ec05-47cd-ab68-f909f1a919fa" />
- | <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/1fe17846-0662-44b2-b94e-7810fc9d89e3" />
- |
+| <img width="295" height="640" alt="image" src="https://github.com/user-attachments/assets/14c58edb-ec05-47cd-ab68-f909f1a919fa" />
+ | 
+ <img width="295" height="640" alt="image" src="https://github.com/user-attachments/assets/1fe17846-0662-44b2-b94e-7810fc9d89e3" />|
 
 ---
 
