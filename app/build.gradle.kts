@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.iso8583)
     implementation(libs.datastore.prefrences)
     implementation(libs.coroutine)
+    implementation(libs.hilt.compose)
 
 
     testImplementation(libs.junit)

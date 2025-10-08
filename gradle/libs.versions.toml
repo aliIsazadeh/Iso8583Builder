@@ -14,6 +14,7 @@ iso8583 = "3.0.0"
 dataStrore = "1.1.7"
 coroutine = "1.10.2"
 ksp = "2.1.10-1.0.31"
+hiltComspoe = "1.3.0"
 
 
 [libraries]
@@ -38,6 +39,7 @@ androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle
 #Hilt
 hilt-android = {group = "com.google.dagger" , name = "hilt-android" , version.ref = "hilt"}
 hilt-compiler = {group = "com.google.dagger" , name = "hilt-android-compiler" , version.ref = "hilt"}
+hilt-compose = { group = "androidx.hilt" , name = "hilt-navigation-compose" , version.ref = "hiltComspoe"}
 
 #ISO8583
 iso8583 = {group = "net.sf.j8583" , name = "j8583" , version.ref = "iso8583"}
