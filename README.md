@@ -176,11 +176,16 @@ app/src/main/java/com/task/iso8583builder/
 ├── MainActivity.kt
 ├── Iso8583Application.kt
 ├── ui/
-│   ├── builder/
-│   │   ├── BuilderScreen.kt          # Compose UI
-│   │   ├── BuilderViewModel.kt       # MVI ViewModel
-│   │   ├── BuilderState.kt           # UI State
-│   │   └── BuilderIntent.kt          # User Actions
+│   ├── components/
+│   │   ├── FieldItem.kt  # Compose UI
+│   ├── events/
+│   │   ├── BuiderEvents.kt  # MVI Intents UI
+│   ├── screens/
+│   │   ├── BuiderScreen.kt  # Compose UI
+│   ├── states/
+│   │   ├── BuiderState.kt # MVI State
+│   ├── viewmodel/
+│   │   ├── BuilderViewModel.kt # MVI ViewModel
 │   └── theme/
 │       └── Theme.kt
 ├── domain/
