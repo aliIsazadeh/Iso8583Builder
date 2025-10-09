@@ -1,7 +1,6 @@
-package com.task.iso8583builder.provider
+package com.task.iso8583builder.data.provider
 
 import android.content.Context
-import androidx.datastore.dataStoreFile
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore

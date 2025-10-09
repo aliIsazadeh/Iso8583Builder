@@ -47,7 +47,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.task.iso8583builder.R
 import com.task.iso8583builder.ui.components.FieldItem
 import com.task.iso8583builder.ui.events.BuilderEvents
-import com.task.iso8583builder.viewmodel.BuilderViewModel
+import com.task.iso8583builder.ui.viewmodel.BuilderViewModel
 import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalMaterial3Api::class)

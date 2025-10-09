@@ -1,11 +1,11 @@
-package com.task.iso8583builder.viewmodel
+package com.task.iso8583builder.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.task.iso8583builder.ui.events.BuilderEvents
 import com.task.iso8583builder.ui.states.BuilderState
 import com.task.iso8583builder.ui.states.GeneratedIsoMessage
-import com.task.iso8583builder.usecase.BuildIsoMessageUseCase
+import com.task.iso8583builder.domain.usecase.BuildIsoMessageUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -43,7 +43,6 @@ class BuilderViewModel @Inject constructor(
     private fun buildMessage() {
         viewModelScope.launch {
             _state.update { it.copy(isLoading = true, errorMessage = null) }
-
             val cardNumber = _state.value.cardNumber
             val amount = _state.value.amount
             when {

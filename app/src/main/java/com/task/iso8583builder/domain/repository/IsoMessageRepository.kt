@@ -1,6 +1,6 @@
-package com.task.iso8583builder.repository
+package com.task.iso8583builder.domain.repository
 
-import com.task.iso8583builder.model.IsoMessageResult
+import com.task.iso8583builder.domain.model.IsoMessageResult
 
 interface IsoMessageRepository {
     suspend fun buildMessage(cardNumber : String , amount : Long) : IsoMessageResult

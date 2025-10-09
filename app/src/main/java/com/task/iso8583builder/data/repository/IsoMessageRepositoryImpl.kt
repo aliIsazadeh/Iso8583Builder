@@ -1,10 +1,11 @@
-package com.task.iso8583builder.repository
+package com.task.iso8583builder.data.repository
 
 import com.solab.iso8583.IsoMessage
 import com.solab.iso8583.IsoType
 import com.solab.iso8583.MessageFactory
-import com.task.iso8583builder.model.IsoMessageResult
-import com.task.iso8583builder.provider.StanManager
+import com.task.iso8583builder.data.provider.StanManager
+import com.task.iso8583builder.domain.model.IsoMessageResult
+import com.task.iso8583builder.domain.repository.IsoMessageRepository
 import jakarta.inject.Inject
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -29,7 +30,7 @@ class IsoMessageRepositoryImpl @Inject constructor(
             val message = messageFactory.newMessage(0x0200)
             val field2 = cardNumber
             message.setValue(2, field2, IsoType.LLVAR, 19)
-            val field4 = String.format(Locale.getDefault(), "%012d", amount)
+            val field4 = String.Companion.format(Locale.getDefault(), "%012d", amount)
             message.setValue(4, field4, IsoType.NUMERIC, 12)
 
             val sdf = SimpleDateFormat("MMddHHmmss", Locale.getDefault())

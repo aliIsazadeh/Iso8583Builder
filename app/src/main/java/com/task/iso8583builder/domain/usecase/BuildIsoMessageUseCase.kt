@@ -1,7 +1,7 @@
-package com.task.iso8583builder.usecase
+package com.task.iso8583builder.domain.usecase
 
-import com.task.iso8583builder.model.IsoMessageResult
-import com.task.iso8583builder.repository.IsoMessageRepository
+import com.task.iso8583builder.domain.model.IsoMessageResult
+import com.task.iso8583builder.domain.repository.IsoMessageRepository
 import javax.inject.Inject
 
 class BuildIsoMessageUseCase @Inject constructor(

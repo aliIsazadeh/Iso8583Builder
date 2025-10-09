@@ -1,7 +1,7 @@
 package com.task.iso8583builder.di
 
-import com.task.iso8583builder.repository.IsoMessageRepository
-import com.task.iso8583builder.repository.IsoMessageRepositoryImpl
+import com.task.iso8583builder.domain.repository.IsoMessageRepository
+import com.task.iso8583builder.data.repository.IsoMessageRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

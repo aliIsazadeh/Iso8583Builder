@@ -1,4 +1,4 @@
-package com.task.iso8583builder.model
+package com.task.iso8583builder.domain.model
 
 data class IsoMessageResult(
     val field2: String,
